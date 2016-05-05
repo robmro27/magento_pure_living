@@ -1,0 +1,25 @@
+<div id="newsletter-delivery">
+	
+    <div id="newsletter">
+        <h3><?php echo $this->__('Sign up for news and exclusive offers!') ?></h3>
+        <form id="newsletter-input" action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">		
+            <div class="form-newsletter"> 
+                <input type="text" name="email" id="newsletter" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Sign up for our newsletter')) ?>" class="input-text required-entry validate-email" />
+                <button type="submit" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Sign up')) ?>" class="button"><span><span><?php echo $this->__('Sign up') ?></span></span></button>
+            </div><!--newsletter-input--> 
+        </form>
+        <script type="text/javascript">
+        //<![CDATA[
+            var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+        //]]>
+        </script>
+    </div><!--newsletter-->
+
+    <div id="delivery">
+            <h3><?php echo $this->__('Free delivery for orders over &pound;75')?></h3>
+            <p><?php echo $this->__('UK Courier Delivery: &pound;4.95 within 5 working days or &pound;7.95 for 2-3 day')?></p>
+            <p><?php echo $this->__('Wordwide Delivery: Priced at checkout')?></p>
+    </div><!--delivery-->
+    <div class="clr"></div>
+
+</div><!--newsletter delivery-->
