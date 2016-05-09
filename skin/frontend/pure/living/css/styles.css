@@ -5717,6 +5717,7 @@ p.product-name a:hover {
 }
 .product-options dt label {
   width: 90px;
+  padding-left: 4px;
 }
 
 .product-options dt:first-child {
