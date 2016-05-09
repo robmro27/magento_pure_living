@@ -650,7 +650,7 @@ h6, .h6 {
 .page-title h2,
 .product-name h1,
 .product-name .h1 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 24px;
   font-weight: 600;
   color: #7f7f7f;
@@ -3702,7 +3702,7 @@ a.skip-link {
   position: relative;
   width: 270px;
   text-align: left;
-  margin: 17px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 #search_mini_form label {
@@ -3802,6 +3802,9 @@ a.skip-link {
 #header-account {
   display: block;
   padding: 5px 0;
+}
+#header-account .links {
+  padding: 0 70px;
 }
 
 #header-account a {
