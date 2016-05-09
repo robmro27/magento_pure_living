@@ -739,6 +739,12 @@
 .product-options dt {
     margin: $gap 0 3px;
     font-weight: normal;
+    float: left;
+    
+    label {
+        width: 90px;
+    }
+    
 }
 
 .product-options dt:first-child {
@@ -800,8 +806,9 @@
 }
 
 .product-options dd select {
-    width: 330px;
+    /*width: 330px;*/
     max-width: 100%;
+    font-size: 12px;
 }
 
 .product-options ul.options-list {

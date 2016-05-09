@@ -5713,6 +5713,10 @@ p.product-name a:hover {
 .product-options dt {
   margin: 10px 0 3px;
   font-weight: normal;
+  float: left;
+}
+.product-options dt label {
+  width: 90px;
 }
 
 .product-options dt:first-child {
@@ -5778,8 +5782,9 @@ p.product-name a:hover {
 }
 
 .product-options dd select {
-  width: 330px;
+  /*width: 330px;*/
   max-width: 100%;
+  font-size: 12px;
 }
 
 .product-options ul.options-list {
